@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="363dp"
+        android:layout_height="362dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:divider="@android:drawable/screen_background_dark"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status">
+
+        <TableRow
+            android:gravity="center|left"
+            android:minWidth="135dp"
+            android:minHeight="120dp">
+
+            <Spinner
+                android:id="@+id/spinner11"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:dropDownWidth="wrap_content"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner12"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner13"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center|left"
+            android:minWidth="135dp"
+            android:minHeight="120dp">
+
+            <Spinner
+                android:id="@+id/spinner21"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner22"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner23"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center|left"
+            android:minWidth="135dp"
+            android:minHeight="120dp">
+
+            <Spinner
+                android:id="@+id/spinner31"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner32"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner33"
+                style="@style/Platform.Widget.AppCompat.Spinner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:background="@android:color/darker_gray"
+                android:popupBackground="@color/colorPrimary"
+                android:textAlignment="center"
+                android:visibility="visible"
+                tools:visibility="visible" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
